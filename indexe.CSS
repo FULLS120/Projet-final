@@ -1,0 +1,133 @@
+
+.Titre{
+    background-color: aliceblue;
+}
+
+h1{
+    text-align: center;
+    color:purple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar-nav1 {
+   display: flex;
+   justify-content: space-around;
+   list-style: none;
+   align-items: center;
+   background-color:#8B008B;
+   width:auto ;
+   height:50px ;
+}
+.navbar-nav1 a {
+    text-decoration: none;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    padding-bottom: auto;
+}
+.navbar-nav1 a:hover{
+color:green;
+text-decoration: underline;
+} 
+.navbar-nav2{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    background-color:#8B008B;
+    width:auto ;
+    height:50px ;
+
+}
+.navbar-nav2 a{
+    text-decoration: none;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    
+}
+
+body{
+    margin-left:6ch ;
+    margin-right:6ch;
+    margin-bottom:60px ;
+    margin-top:none ;
+}
+#caroussel{
+    width:auto ;
+    height: 600px;
+    overflow:auto ;
+    border:2px solid blue ;
+}
+.carousel-item{
+    height: 580px;
+    margin-top:0px;
+    padding-top: none;
+}
+.carousel{
+padding-top:0px;
+
+}
+
+#carouselExample{
+ padding-top:auto;
+
+    }
+
+.carousel-control-prev{
+    background-color: none;
+}
+.carousel-control-prev-icon{
+    color:blue;
+    background-color: purple;
+    border: 2px solid black;
+}
+.carousel-control-next-icon{
+    color:blue;
+    background-color: purple;
+    border: 1px solid black;
+    font-weight: 100px;
+}
+.visually-hidden{
+    border: 25px solid;
+}
+.col-6 img{
+    margin-left:auto;
+}
+
+footer{
+    background-color: greenyellow;
+    height: 250px;
+}
+/*.row{
+    border: 3px solid purple;
+}
+
+/*.navbar-nav1 li {
+    font-weight: 1500px;
+}
+
+/*.navbar-nav1 a {
+    background-color: none;
+    text-decoration: none;
+}
+
+footer li{
+	list-style:; 
+    padding: 010px; margin: 10px;
+    display:inline-block;
+    outline-width:20px;
+    color:black;
+    font-style: 10px;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center; 
+}
+  
+
+.col-sm-10{
+    border: none;
+    background-color: ;
+    color: ;
+    border-top-right-radius: ;
+    border-color: purple;
+    }
