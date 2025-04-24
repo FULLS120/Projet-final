@@ -70,6 +70,7 @@ padding-top:0px;
 
 #carouselExample{
  padding-top:auto;
+ width:800px;
 
     }
 
@@ -98,8 +99,40 @@ footer{
     background-color: greenyellow;
     height: 250px;
 }
-/*.row{
+
+#carouselExample{
+width: calc(500px*3);
+}
+.carousel-inner{
+    width: calc(500px*3);
+animation: glisse 10s infinite;
+}
+.carousel-item{
+    width:800px
+    float: none;
+}
+keyframes glisse{
+    0%{
+        transform: translateX(0);
+    }
+   33%{
+        transform: translateX(-500px);
+    }
+   66%{
+        transform: translateX(-1000px);
+    }
+   100%{
+        transform: translateX(0);
+    }
+}
+
+style de contact code  code code
+.row1{
     border: 3px solid purple;
+    display:flex;
+}
+body1{
+    background-color:purple;
 }
 
 /*.navbar-nav1 li {
@@ -123,11 +156,3 @@ footer li{
     text-align: center; 
 }
   
-
-.col-sm-10{
-    border: none;
-    background-color: ;
-    color: ;
-    border-top-right-radius: ;
-    border-color: purple;
-    }
