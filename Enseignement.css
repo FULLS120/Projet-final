@@ -1,0 +1,32 @@
+h1{
+    color: brown;
+    font-size: 50px;
+    text-align: center;
+}
+
+body{
+    margin-top: 50px;
+    margin-bottom:200px ;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color:ghostwhite;
+}
+h5{
+    color:brown;
+}
+
+.clearfix{
+    background-color: none;
+    width:none;
+    height:none;
+    border: none;
+
+}
+.col-md-6 {
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: auto;
+    width:450px ;
+    height: 250px;
+    
+}
