@@ -1,0 +1,117 @@
+h1{
+    color:blueviolet;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+body{
+    margin-top: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+    text-align: justify;
+}
+p{
+    font-size: 20px;
+}
+footer ul{
+    display: inline-block;
+ 
+}
+.col-6 ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+.col-6 > ul > li{
+    text-decoration: none;
+    position: relative;
+}
+.list-unstyled{
+    text-decoration:0px;
+}
+.col-6 {
+    display: inline-block; 
+    position: relative;
+}
+.list-unstyled ul li{
+    text-decoration: none;
+}
+h5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:25px;
+    font-weight: 30px;
+}
+.mb-2{
+    text-decoration: none;
+}
+footer.les-menus{
+    display: flex;
+}
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer{
+    background-color: purple;
+}
+
+.contenu-footer{
+    width:1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 50px 0 100px;
+}
+.footer-services,
+.footer-Contacts,
+.footer-Horaires,
+.footer-médias{
+width: 20%;
+margin: 0 15px;
+}
+.footer-services h3,
+.footer-contacts h3,
+.footer-horaires h3,
+.footer-médias h3{
+font-size: 25px;
+padding-bottom:3px;
+}
+.footer-Contacts p{
+    padding: 0px;
+}
+
+.liste-services,
+.liste-Horaires,
+.liste-médias{
+list-style-type: none;
+}
+
+.liste-services li,
+.liste-Horaires li,
+.liste-médias li{
+padding: 2px 0;
+}
+.liste-services a:hover,
+.liste-Horaires a:hover,
+.liste-médias a:hover{
+color: rgb(19, 41, 130);
+}
+.liste-services a,
+.liste-Horaires a,
+.liste-médias a{
+text-decoration: none;
+color:white;
+}
+.liste-médias img{
+   width: ;
+   margin: ;
+    }
+
+    .fa-brands{
+        width:15px;
+        height: 15px;
+        color: white;
+    }

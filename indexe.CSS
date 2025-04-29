@@ -8,26 +8,7 @@ h1{
     color:purple;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.navbar-nav1 {
-   display: flex;
-   justify-content: space-around;
-   list-style: none;
-   align-items: center;
-   background-color:#8B008B;
-   width:auto ;
-   height:50px ;
-}
-.navbar-nav1 a {
-    text-decoration: none;
-    color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 25px;
-    padding-bottom: auto;
-}
-.navbar-nav1 a:hover{
-color:green;
-text-decoration: underline;
-} 
+
 .navbar-nav2{
     display: flex;
     justify-content: space-around;
@@ -97,11 +78,165 @@ padding-top:0px;
 
 footer{
     background-color:purple;
-    height: 250px;
+    height:300px;
 }
-
 
 .carousel-item{
     width:1500px;
     float: none;
 }
+        
+nav{
+    width: 100%;
+    background-color: purple;
+}
+nav > ul{
+    margin: 0px;
+    padding: 0px;
+}
+nav > ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+nav> ul > li{
+    float:left;
+    position:relative;
+}
+nav li{
+    list-style-type: none;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+}
+nav li a :hover{
+    color: #BBB;
+    
+    }
+.submenu{
+    display: none;
+}
+nav > ul > li > a{
+    padding: 20px,30px;
+    color: #fff;
+}
+nav li:hover .submenu{
+    display:inline-block;
+    position:absolute;
+    top:100%;
+    left:0px;
+    padding: 0px;
+    z-index: 1000;
+}
+.submenu li{
+    border-bottom:2px solid black;
+   
+}
+.submenu li :hover{
+    color:blue;
+}
+
+.submenu li a {
+    padding: 15px 30px;
+    font-size: 15px;
+    color: #222538;
+    width: 150px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.menu-html :hover{
+    border-top: 5px solid #e44d26;
+    background-color: RGBa(228, 77, 38, 0.15);
+}
+.menu-Css :hover{
+    border-top: 5px solid #0770bb;
+    background-color: RGBa(000, 112, 225, 0.15);
+}
+.menu-JavaScript :hover{
+    border-top: 5px solid #f1dc4f;
+    background-color: RGBa(241, 211, 79, 0.15);
+}
+.menu-Contact :hover{
+    border-top: 5px solid #BBB;
+    background-color: red;
+}
+nav > ul > li {
+    padding: 15px 30px 20px 30px;
+}
+
+.submenu li {
+    color:#EEE;
+    font-weight: 100;
+    background-color: gainsboro;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btn {
+    float: right;
+    background-color: white;
+    width: 150px;
+    height: 53px;
+    margin-right: 30px;
+    padding-top: 10px;
+}
+
+.contenu-footer{
+    width:1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 50px 0 100px;
+}
+.footer-services,
+.footer-Contacts,
+.footer-Horaires,
+.footer-médias{
+width: 20%;
+margin: 0 15px;
+}
+.footer-services h3,
+.footer-contacts h3,
+.footer-horaires h3,
+.footer-médias h3{
+font-size: 25px;
+padding-bottom:3px;
+}
+.footer-Contacts p{
+    padding: 0px;
+}
+
+.liste-services,
+.liste-Horaires,
+.liste-médias{
+list-style-type: none;
+}
+
+.liste-services li,
+.liste-Horaires li,
+.liste-médias li{
+padding: 2px 0;
+}
+.liste-services a:hover,
+.liste-Horaires a:hover,
+.liste-médias a:hover{
+color: rgb(19, 41, 130);
+}
+.liste-services a,
+.liste-Horaires a,
+.liste-médias a{
+text-decoration: none;
+color:white;
+}
+.liste-médias img{
+   width: ;
+   margin: ;
+    }
+
+    .fa-brands{
+        width:15px;
+        height: 15px;
+        color: white;
+    }
+
