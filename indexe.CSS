@@ -239,4 +239,7 @@ color:white;
         height: 15px;
         color: white;
     }
+    .col-4 p{
+        text-align: justify;
+    }
 

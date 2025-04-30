@@ -12,6 +12,7 @@ body{
     margin-right: 200px;
     margin-bottom: 200px;
     text-align: justify;
+    background-color: rgb(242, 242, 205);
 }
 p{
     font-size: 20px;
@@ -53,7 +54,7 @@ h3{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 footer{
-    background-color: purple;
+    background-color: rgb(230, 113, 230);
 }
 
 .contenu-footer{
@@ -79,9 +80,7 @@ margin: 0 15px;
 font-size: 25px;
 padding-bottom:3px;
 }
-.footer-Contacts p{
-    padding: 0px;
-}
+
 
 .liste-services,
 .liste-Horaires,
@@ -115,3 +114,16 @@ color:white;
         height: 15px;
         color: white;
     }
+    .footer-Contacts li{
+        text-decoration: none;
+        color:;
+        list-style-type: none;
+    }
+
+    .footer-Contacts a{
+        color: white ;
+        text-decoration: none;
+    }
+   h4{
+    color: brown;
+   }
